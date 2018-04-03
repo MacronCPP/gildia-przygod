@@ -161,9 +161,9 @@ Item types
 | ITEM_STAT_BOOST  | AAABBBBB | A statistic type(0 - 7) | A boost amount(0 - 31) | UNUSED | An item that boosts statistics of a character. The statistics are listed below in a character statistics section. |
 | ITEM_QUEST  | XXXXXXXX | UNUSED | UNUSED | UNUSED | An empty item, just for a quest purposes. | 
 | ITEM_ARMOR  | AAAAAAAA | A armor value | UNUSED | UNUSED | An item that give a character armor. | 
-| ITEM_WEAPON_MELEE  | AABBBBCC | A number of dices | An amount of sides on the dices | An additonal modifier(0 - 3) | A weapon that activates a melee attack. |
-| ITEM_WEAPON_RANGED | AABBBBCC | A number of dices | An amount of sides on the dices | An additonal modifier(0 - 3) | A weapon that activates a ranged attack. |
-| ITEM_WEAPON_MELEE_CAMP  | AABBBBCC | A number of dices | An amount of sides on the dices | An additonal modifier(0 - 3) | A weapon that activates a melee attack. Replenishes HP equal to DMG that has been dealt. |
+| ITEM_WEAPON_MELEE  | AABBBBCC | A number of dice | An amount of sides on the dice | An additonal modifier(0 - 3) | A weapon that activates a melee attack. |
+| ITEM_WEAPON_RANGED | AABBBBCC | A number of dice | An amount of sides on the dice | An additonal modifier(0 - 3) | A weapon that activates a ranged attack. |
+| ITEM_WEAPON_MELEE_CAMP  | AABBBBCC | A number of dice | An amount of sides on the dice | An additonal modifier(0 - 3) | A weapon that activates a melee attack. Replenishes HP equal to DMG that has been dealt. |
 | ITEM_AMMO  | AAAAAAAA | An additional damage | UNUSED | UNUSED | An ammo type for the ranged weapon - it isn't implemented. |
 | ITEM_POTION  | AAAAAAAA | A number of HP | UNUSED | UNUSED | An item that replenishes HP of a character. |
 
