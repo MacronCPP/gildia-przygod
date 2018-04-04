@@ -9,6 +9,7 @@ unsigned char fightResult, isRanged;
  * - 7B - modifier - 2b - length, 3b - statistic, 3b - (unsigned value - 1)*5 - 40 max
  * - 1B - modifiers signs - 1b per modifer
  * */
+unsigned char characterBufferTable[8];
 unsigned char characterStateMemory[6*CHARACTER_STATE_LENGTH];
 struct Encounter {
     unsigned char encounterHeader;
